@@ -601,7 +601,10 @@ class JKBMS:
         logger.info("Connected.")
         await self._find_chars()
         await self._client.start_notify(self._rx, self._on_notify)
-        logger.info("Subscribed to fff1 notifications.")
+        logger.info("Subscribed to fff1 notifications. Allowing stack to settle...")
+        
+        # --- FIX 1: Allow BLE descriptor write to completely clear ---
+        await asyncio.sleep(1.0)
 
     async def disconnect(self) -> None:
         if self._client and self._client.is_connected:
@@ -618,18 +621,23 @@ class JKBMS:
         return self.data
 
     async def wait_for_data(self, timeout: float = 20.0) -> BMSData:
-        """
-        Kick off a poll and block until both CELLS and STATUS are received.
-        Falls back to cells-only if STATUS never arrives within the timeout.
-        """
-        asyncio.ensure_future(self.poll_once())
-        try:
-            await asyncio.wait_for(self._full_ready.wait(), timeout=timeout)
-        except asyncio.TimeoutError:
-            if self._cells_ready.is_set():
-                logger.warning("STATUS not received — showing cells-only data")
-            else:
-                raise
+        """Poll periodically until both CELLS and STATUS are received or timeout hits."""
+        start_time = asyncio.get_event_loop().time()
+        
+        # --- FIX 2: Dynamic loop that retries if frames get dropped ---
+        while not self.data.fully_populated():
+            if asyncio.get_event_loop().time() - start_time > timeout:
+                if self.data._cells_received:
+                    logger.warning("STATUS not received — showing cells-only data")
+                    break
+                raise asyncio.TimeoutError("Timeout waiting for initial BMS data blocks")
+            
+            # Fire a poll cycle
+            asyncio.ensure_future(self.poll_once())
+            
+            # Wait 2.5 seconds for the response sequence to clear out before evaluating/retrying
+            await asyncio.sleep(2.5)
+            
         return self.data
 
     async def stream(self, interval: float = 2.0):
