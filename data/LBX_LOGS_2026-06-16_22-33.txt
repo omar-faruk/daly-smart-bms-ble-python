@@ -1,0 +1,136 @@
+Tue Jun 16 22:30:20 GMT+06:00 2026: LightBlue® app launched
+
+Tue Jun 16 22:30:20 GMT+06:00 2026: App foregrounded
+
+Tue Jun 16 22:30:22 GMT+06:00 2026: App backgrounded
+
+Tue Jun 16 22:30:33 GMT+06:00 2026: App foregrounded
+
+Tue Jun 16 22:30:36 GMT+06:00 2026: Starting search for nearby peripherals
+
+Tue Jun 16 22:30:36 GMT+06:00 2026: Unnamed (18:AC:73:D7:D1:77) peripheral discovered
+
+Tue Jun 16 22:30:36 GMT+06:00 2026: Unnamed (18:AC:73:D7:D1:77) peripheral discovered
+
+Tue Jun 16 22:30:36 GMT+06:00 2026: Unnamed (18:AC:73:D7:D1:77) peripheral discovered
+
+Tue Jun 16 22:30:36 GMT+06:00 2026: Unnamed (18:AC:73:D7:D1:77) peripheral discovered
+
+Tue Jun 16 22:30:37 GMT+06:00 2026: Unnamed (71:68:1F:A2:DE:2A) peripheral discovered
+
+Tue Jun 16 22:30:37 GMT+06:00 2026: Unnamed (18:AC:73:D7:D1:77) peripheral discovered
+
+Tue Jun 16 22:30:38 GMT+06:00 2026: Unnamed (18:AC:73:D7:D1:77) peripheral discovered
+
+Tue Jun 16 22:30:38 GMT+06:00 2026: JX12100-251210360 (70:C1:45:30:11:52) peripheral discovered
+
+Tue Jun 16 22:30:38 GMT+06:00 2026: Unnamed (18:AC:73:D7:D1:77) peripheral discovered
+
+Tue Jun 16 22:30:39 GMT+06:00 2026: Unnamed (D6:E3:F6:CE:8D:A0) peripheral discovered
+
+Tue Jun 16 22:30:39 GMT+06:00 2026: JX12100-251210360 (70:C1:45:30:11:52) peripheral discovered
+
+Tue Jun 16 22:30:39 GMT+06:00 2026: Unnamed (18:AC:73:D7:D1:77) peripheral discovered
+
+Tue Jun 16 22:30:40 GMT+06:00 2026: Unnamed (18:AC:73:D7:D1:77) peripheral discovered
+
+Tue Jun 16 22:30:40 GMT+06:00 2026: Unnamed (18:AC:73:D7:D1:77) peripheral discovered
+
+Tue Jun 16 22:30:40 GMT+06:00 2026: JX12100-251210360 (70:C1:45:30:11:52) peripheral discovered
+
+Tue Jun 16 22:30:40 GMT+06:00 2026: Unnamed (18:AC:73:D7:D1:77) peripheral discovered
+
+Tue Jun 16 22:30:41 GMT+06:00 2026: JX12100-251210360 (70:C1:45:30:11:52) peripheral discovered
+
+Tue Jun 16 22:30:41 GMT+06:00 2026: Unnamed (18:AC:73:D7:D1:77) peripheral discovered
+
+Tue Jun 16 22:30:42 GMT+06:00 2026: Unnamed (18:AC:73:D7:D1:77) peripheral discovered
+
+Tue Jun 16 22:30:42 GMT+06:00 2026: Stopped searching for nearby peripherals
+
+Tue Jun 16 22:30:42 GMT+06:00 2026: Connecting to 70:C1:45:30:11:52 (JX12100-251210360)
+
+Tue Jun 16 22:30:43 GMT+06:00 2026: Connected to 70:C1:45:30:11:52 (JX12100-251210360)
+
+Tue Jun 16 22:30:43 GMT+06:00 2026: Discovering services for 70:C1:45:30:11:52 (JX12100-251210360)
+
+Tue Jun 16 22:30:43 GMT+06:00 2026: Request succeeded, current MTU is 247
+
+Tue Jun 16 22:30:44 GMT+06:00 2026: Discovered 2 services for 70:C1:45:30:11:52.
+
+Tue Jun 16 22:30:44 GMT+06:00 2026: 
+                Service 00010203-0405-0607-0809-0a0b0c0d1912
+                Characteristics: 
+                |--00010203-0405-0607-0809-0a0b0c0d2b12: Properties: Read, Write, Write Without Response, Notify
+|------00002902-0000-1000-8000-00805f9b34fb: <EMPTY>
+|------00002901-0000-1000-8000-00805f9b34fb: <EMPTY>
+            
+
+Tue Jun 16 22:30:44 GMT+06:00 2026: 
+                Service 0000fff0-0000-1000-8000-00805f9b34fb
+                Characteristics: 
+                |--0000fff1-0000-1000-8000-00805f9b34fb: Properties: Read, Notify
+|------00002902-0000-1000-8000-00805f9b34fb: <EMPTY>
+|------00002901-0000-1000-8000-00805f9b34fb: <EMPTY>
+|--0000fff2-0000-1000-8000-00805f9b34fb: Properties: Read, Write, Write Without Response
+|------00002902-0000-1000-8000-00805f9b34fb: <EMPTY>
+|------00002901-0000-1000-8000-00805f9b34fb: <EMPTY>
+|--0000fff3-0000-1000-8000-00805f9b34fb: Properties: Read, Write, Write Without Response
+|------00002902-0000-1000-8000-00805f9b34fb: <EMPTY>
+|--0000fff4-0000-1000-8000-00805f9b34fb: Properties: Read, Notify
+|------00002902-0000-1000-8000-00805f9b34fb: <EMPTY>
+            
+
+Tue Jun 16 22:30:44 GMT+06:00 2026: Stopped searching for nearby peripherals
+
+Tue Jun 16 22:30:44 GMT+06:00 2026: Reading from descriptor 00002901-0000-1000-8000-00805f9b34fb
+
+Tue Jun 16 22:30:44 GMT+06:00 2026: Read descriptor 00002901-0000-1000-8000-00805f9b34fb | value: 4F 54 41
+
+Tue Jun 16 22:30:44 GMT+06:00 2026: Reading from descriptor 00002902-0000-1000-8000-00805f9b34fb
+
+Tue Jun 16 22:30:44 GMT+06:00 2026: Read descriptor 00002902-0000-1000-8000-00805f9b34fb | value: 00 00
+
+Tue Jun 16 22:30:44 GMT+06:00 2026: Reading from descriptor 00002901-0000-1000-8000-00805f9b34fb
+
+Tue Jun 16 22:30:44 GMT+06:00 2026: Read descriptor 00002901-0000-1000-8000-00805f9b34fb | value: 43 55 53
+
+Tue Jun 16 22:30:44 GMT+06:00 2026: Reading from descriptor 00002902-0000-1000-8000-00805f9b34fb
+
+Tue Jun 16 22:30:44 GMT+06:00 2026: Read descriptor 00002902-0000-1000-8000-00805f9b34fb | value: 00 00
+
+Tue Jun 16 22:30:44 GMT+06:00 2026: Reading from descriptor 00002901-0000-1000-8000-00805f9b34fb
+
+Tue Jun 16 22:30:44 GMT+06:00 2026: Read descriptor 00002901-0000-1000-8000-00805f9b34fb | value: 43 55 53
+
+Tue Jun 16 22:30:44 GMT+06:00 2026: Reading from descriptor 00002902-0000-1000-8000-00805f9b34fb
+
+Tue Jun 16 22:30:45 GMT+06:00 2026: Read descriptor 00002902-0000-1000-8000-00805f9b34fb | value: 00 00
+
+Tue Jun 16 22:30:45 GMT+06:00 2026: Reading from descriptor 00002902-0000-1000-8000-00805f9b34fb
+
+Tue Jun 16 22:30:45 GMT+06:00 2026: Read descriptor 00002902-0000-1000-8000-00805f9b34fb | value: 00 00
+
+Tue Jun 16 22:30:45 GMT+06:00 2026: Reading from descriptor 00002902-0000-1000-8000-00805f9b34fb
+
+Tue Jun 16 22:30:45 GMT+06:00 2026: Read descriptor 00002902-0000-1000-8000-00805f9b34fb | value: 00 00
+
+Tue Jun 16 22:30:48 GMT+06:00 2026: Enabling notifications/indications on 0000fff1-0000-1000-8000-00805f9b34fb
+
+Tue Jun 16 22:30:48 GMT+06:00 2026: Notifications or indications ENABLED on 0000fff1-0000-1000-8000-00805f9b34fb
+
+Tue Jun 16 22:30:48 GMT+06:00 2026: Wrote to descriptor 00002902-0000-1000-8000-00805f9b34fb | operation type: EnableNotifications(device=J5.f@e9e18148, characteristicUuid=0000fff1-0000-1000-8000-00805f9b34fb, serviceUuid=0000fff0-0000-1000-8000-00805f9b34fb)
+
+Tue Jun 16 22:31:03 GMT+06:00 2026: Enabling notifications/indications on 0000fff4-0000-1000-8000-00805f9b34fb
+
+Tue Jun 16 22:31:03 GMT+06:00 2026: Notifications or indications ENABLED on 0000fff4-0000-1000-8000-00805f9b34fb
+
+Tue Jun 16 22:31:03 GMT+06:00 2026: Wrote to descriptor 00002902-0000-1000-8000-00805f9b34fb | operation type: EnableNotifications(device=J5.f@e9e18148, characteristicUuid=0000fff4-0000-1000-8000-00805f9b34fb, serviceUuid=0000fff0-0000-1000-8000-00805f9b34fb)
+
+Tue Jun 16 22:31:19 GMT+06:00 2026: App backgrounded
+
+Tue Jun 16 22:31:32 GMT+06:00 2026: App foregrounded
+
+Tue Jun 16 22:31:36 GMT+06:00 2026: Disconnecting from 70:C1:45:30:11:52 (JX12100-251210360)
+
+Tue Jun 16 22:31:36 GMT+06:00 2026: Disconnected from 70:C1:45:30:11:52 (JX12100-251210360)
